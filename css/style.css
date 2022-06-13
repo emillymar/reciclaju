@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: #FF9A00;
+}
+
+/*HEADER*/
+.header {
+    background-color: #fff;
+    height: 25%;
+    width: 100%;
+}
+
+.imglogo {
+    margin: 5px;
+    margin-left: 10px;
+    width: 12%;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+    margin: 15px;
+    margin-bottom: 30px;
+}
+
+.wrapper {
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo {
+    width: 50%;
+    height: auto;
+
+}
+
+.memeinicio {
+    width: 72%;
+    display: flex;
+    margin: auto;
+}
+
+.texto {
+    width: 90%;
+    display: flex;
+    margin: auto;
+    margin-right: 70px;
+    text-align: justify;
+    font-size: 30px;
+    color: #fff;
+}
