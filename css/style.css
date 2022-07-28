@@ -25,11 +25,11 @@ body{
 .imglogo {
     margin: 5px;
     margin-left: 20px;
-    width: 90%;
+    width: 100%;
 }
 
 .ancor-logo {
-    width: 140px;
+    width: 130px;
 }
 
 /*MOBILE MENU*/
@@ -215,6 +215,10 @@ p {
 
 /*Responsividade*/
 @media screen and (max-width:1024px) {
+    body{
+        overflow-x: hidden;
+    }
+
     .main {
         display: flex;
         flex-direction: column;
