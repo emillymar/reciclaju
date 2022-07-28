@@ -107,7 +107,7 @@ h1 {
 }
 
 .memebox {
-    width: 50%;
+    width: 45%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -115,7 +115,7 @@ h1 {
 }
 
 .conteudo {
-    width: 50%;
+    width: 55%;
     height: auto;
 }
 
@@ -124,10 +124,11 @@ h1 {
 }
 
 .texto {
-    width: 90%;
+    width: 80%;
     display: flex;
     margin: auto;
-    margin-right: 70px;
+    align-items: center;
+    justify-content: center;
     margin-bottom: 20px;
     margin-top: 10px;
     text-align: justify;
@@ -193,6 +194,12 @@ p {
     margin-left: 5%;
 }
 
+.wrapper-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /*Controla a sequência de animação CSS no Menu*/
 @keyframes navLinkFade {
     from {
@@ -205,4 +212,68 @@ p {
     }
 }
 
+
+/*Responsividade*/
+@media screen and (max-width:1024px) {
+    .main {
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .memebox {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .conteudo {
+        width: 100%;
+        height: auto;
+        margin-top: 10px;
+    }
+
+    section {
+        width: 100%;
+    }
+
+    .ul-itens {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-left: 30px;
+        margin-left: 30px;
+        font-size: 20px;
+    }
+
+    .nav-list {
+        width: 60vw;
+    }
+    
+    p {
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+    
+    a {
+        font-size: 20px;
+    }
+
+    .texto {
+        font-size: 20px;
+    }
+
+    .ancor-logo {
+        width: 120px;
+    }
+
+
+}
 
