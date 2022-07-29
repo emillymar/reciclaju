@@ -25,11 +25,11 @@ body{
 .imglogo {
     margin: 5px;
     margin-left: 20px;
-    width: 100%;
+    width: 80%;
 }
 
 .ancor-logo {
-    width: 130px;
+    width: 150px;
 }
 
 /*MOBILE MENU*/
@@ -213,7 +213,7 @@ p {
 }
 
 /*RESPONSIVIDADE*/
-@media screen and (max-width:800px) {
+@media screen and (max-width:768px) {
     html {
         overflow-x: hidden;
     }
@@ -251,16 +251,17 @@ p {
         flex-direction: column;
         margin-left: 30px;
         margin-left: 30px;
-        font-size: 15px;
+        font-size: 18px;
     }
 
     .nav-list {
         width: 60vw;
-        height: 90vh;
+        justify-content: space-evenly;
     }
     
     p {
-        font-size: 15px;
+        font-size: 18px;
+        text-align: center;
     }
 
     h1 {
@@ -276,7 +277,8 @@ p {
     }
 
     .texto {
-        font-size: 15px;
+        font-size: 18px;
+        text-align: center;
     }
 
     .ancor-logo {
