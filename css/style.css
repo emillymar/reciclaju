@@ -212,10 +212,14 @@ p {
     }
 }
 
-
-/*Responsividade*/
+/*RESPONSIVIDADE*/
 @media screen and (max-width:1024px) {
-    body{
+    html {
+        overflow-x: hidden;
+    }
+      
+    body {
+        position: relative;
         overflow-x: hidden;
     }
 
@@ -277,7 +281,5 @@ p {
     .ancor-logo {
         width: 120px;
     }
-
-
 }
 
