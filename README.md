@@ -24,7 +24,7 @@ This project aims to tackle recycling challenges in school settings and encourag
      git clone https://github.com/emillymar/reciclaju.git
      ```
    - Open the `index.html` file in your preferred browser to access the local version.
-   - Alternatively, access the online hosted version (link to be provided if available).
+   - Alternatively, access the online hosted version (Git Page https://emillymar.github.io/reciclaju/).
 
 ## How to Use
 
@@ -36,25 +36,6 @@ This project aims to tackle recycling challenges in school settings and encourag
 
 Reciclaju was developed using a **Participatory Action Design Research** (PADR) approach, a collaborative methodology that directly involves users in the design and development process. This approach enabled the creation of a solution that truly meets the needs and preferences of the target audience.
 
-### Design Cycles
-
-- **Cycle 1**: Conceptualization of the web application focused on providing educational content and raising environmental awareness among young people.
-- **Cycle 2**: Usability testing and interface improvements based on user feedback and participatory design methods.
-
-## Contributions
-
-Contributions are welcome! To collaborate, follow the guidelines in our [Contribution Guide](CONTRIBUTING.md).
-
-## Future Enhancements
-
-- **Gamification**: Implementation of points and rewards to encourage continuous use of the platform.
-- **Expanded Content**: Addition of new topics on sustainability and ecological practices.
-- **Integration with Smart Collection Platforms**: Connection with projects like SmartBin to create a complete recycling ecosystem.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
 ## Acknowledgments
 
 This project was carried out with the support of the Postgraduate Program in Informatics at the Federal University of Rio de Janeiro, under the supervision of professors Claudio Miceli and Daniel Schneider. Special thanks to the students and educators who actively participated in developing this application.
@@ -63,4 +44,3 @@ This project was carried out with the support of the Postgraduate Program in Inf
 
 We invite you to explore Reciclaju and join this initiative for a more sustainable future!
  
-Git Page https://emillymar.github.io/reciclaju/
